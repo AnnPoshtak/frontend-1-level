@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+header{
+    height: 100px;
+    width: 1440px;
+    background-color: #2B4074;
+}
+.Di-gi{
+    width: 100px;
+    height: 65.73px;
+    padding-top: 17px;
+    padding-left:153px;
+}
+.menu{
+    color: #2B4074;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: -50px;
+    margin-left: 1265px;
+    padding-top: 17px;
+    padding-left:14px;
+    width: 26px;
+    height: 27px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.intro{
+    background-image:url("img/bg-img.jpg");
+    width: 1440px;
+    height: 668px;
+}
+.Rectangle{
+    position: relative;
+    width: 1440px;
+    height: 668px;
+    background-color: #21212180;
+}
+.title{
+    font-family: Roboto Condensed;
+    width: 514px;
+    height: 192px;
+    position: absolute;
+    z-index: 5;
+    top: 107px;
+    left: 462px;
+    color: #FFFFFF;
+    weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: 2px;
+    horiz-align: center;
+    vertical-align: bottom;
+    text-align: center;
+}
+.text {
+    font-family: Roboto Condensed;
+    width: 886px;
+    height: 60px;
+    position: absolute;
+    z-index: 5;
+    top: 317px;
+    left: 277px;
+    color: #FFFFFF;
+    weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    horiz-align: center;
+    vertical-align: bottom;
+    text-align: center;
+}
+.read-more{
+    width:200px;
+    height: 32px;
+    position: absolute;
+    top: 405px;
+    left: 620px;
+    border-radius: 3px;
+    background-color: #2B4074;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top:18px;
+
+}
