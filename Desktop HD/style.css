@@ -195,3 +195,69 @@ header{
     margin-left: 20px;
     display:flex;
 }
+.promo{
+    position: absolute;
+    top: 768px;
+    left: 0px;
+}
+.bg{
+    width: 1440px;
+    height: 192px;
+    background-color: #2B4074;
+}
+.text-promo{
+    color: #fff;
+    position: absolute;
+    top: 57px;
+    left: 150px;
+}
+.text-1{
+    width: 557px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: bottom;
+}
+.text-2{
+    width: 796px;
+    height: 42px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: bottom;
+}
+.button{
+    width:200px;
+    height: 32px;
+    position: absolute;
+    top: 71px;
+    left: 1105px;
+    background-color: #F9F6E5;
+
+    font-size:18px;
+    padding-top: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #2B4074;
+}
+.services{
+    width:1440px;
+    height: 547px;
+    position: absolute;
+    top: 196px;
+    left: 62px;
+}
+.servic{
+    width:131px;
+    height: 56px;
+    position: absolute;
+    top: 90px;
+    left: 62px;
+    color: #2B4074;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    vertical-align: bottom;
+}
