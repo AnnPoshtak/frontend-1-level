@@ -50,10 +50,6 @@ table {
 }
 
 
-
-
-
-
 header{
     height: 100px;
     width: 1440px;
@@ -245,11 +241,11 @@ header{
 .services{
     width:1440px;
     height: 547px;
-    position: absolute;
+    position: relative;
     top: 196px;
     left: 62px;
 }
-.servic{
+.service{
     width:131px;
     height: 56px;
     position: absolute;
@@ -260,4 +256,98 @@ header{
     font-size: 48px;
     line-height: 100%;
     vertical-align: bottom;
+}
+.content{
+    width:393px;
+    height: 278px;
+    position: relative;
+    top: 132px;
+    left: 62px;
+}
+.content-text1{
+    width: 393px;
+    height: 60px;
+    position: absolute;
+    top: 76.4px;
+
+    color: #4A4A4A;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.content-text2{
+    width: 351px;
+    height: 68px;
+    position: absolute;
+    top: 210px;
+
+    color: #797979;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.line{
+    width: 98.74px;
+    height: 8px;
+    position: absolute;
+    top: 167px;
+    background: #2B4074;
+}
+
+
+
+
+.items{
+    width:853px;
+    height:487px;
+    position: absolute;
+    top: 79px;
+    left: 543px;
+}
+.service-1{
+    width: 94px;
+    height: 112px;
+    position: absolute;
+    top: -0.47px;
+    left: 46.79px;
+}
+.object-1-text{
+    width: 93.8px;
+    height: 20px;
+    position: absolute;
+    top: 91.54px;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+.object-1{
+    width: 100px;
+    height: 100px;
+}
+.service-2{
+    width: 98px;
+    height: 112px;
+    position: absolute;
+    top: -0.47px;
+    left: 278.3px;
+}
+.object-2-text{
+    width: 93.8px;
+    height: 20px;
+    position: absolute;
+    top: 91.54px;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+.object-2{
+    width: 64px;
+    height: 64px;
 }
