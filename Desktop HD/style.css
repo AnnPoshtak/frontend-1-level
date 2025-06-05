@@ -318,7 +318,7 @@ header{
     position: absolute;
     top: 91.54px;
 
-    color: #2B4074;
+    color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
@@ -326,7 +326,7 @@ header{
 }
 .object-1{
     width: 100px;
-    height: 100px;
+    height: 110px;
 }
 .service-2{
     width: 98px;
@@ -341,13 +341,71 @@ header{
     position: absolute;
     top: 91.54px;
 
-    color: #2B4074;
+
+    color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
 }
 .object-2{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 16.96px;
+}
+
+.service-3{
+    width: 124px;
+    height: 110px;
+    position: absolute;
+    top: 1.52px;
+    left: 494.85px;
+}
+.object-3-text{
+    width: 107px;
+    height: 19px;
+    position: absolute;
+    top: 91.48px;
+
+
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+.object-3 {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 31.15px
+}
+
+
+.service-4{
+    width: 129px;
+    height: 111px;
+    position: absolute;
+    top: 1.52px;
+    left: 724.37px;
+}
+.object-4-text{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 91.48px;
+
+
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+}
+.object-4 {
     width: 64px;
     height: 64px;
 }
