@@ -194,7 +194,7 @@ header{
 .promo{
     position: absolute;
     top: 768px;
-    left: 0px;
+    left: 0;
 }
 .bg{
     width: 1440px;
@@ -441,7 +441,7 @@ header{
 
 .service-6{
     width: 222px;
-    height: 260px;
+    height: 245px;
     position: absolute;
     top: 202px;
     left: 210px;
@@ -553,7 +553,7 @@ header{
     width: 865px;
     height: 547px;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 515.61px;
 }
 .line-1{
@@ -591,4 +591,190 @@ header{
     position: absolute;
     left: 691.03px;
     border: 1px solid #F9F6E5;
+}
+.works{
+    width: 1440px;
+    height: 618px;
+    position: absolute;
+    top: 1507px;
+    background: linear-gradient(180deg, rgba(43, 64, 116, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.title-works{
+    width: 319px;
+    height: 84px;
+    position: absolute;
+    top: 80px;
+    left: 561px;
+}
+.text-works{
+    width: 318.5px;
+    height: 52px;
+
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.line-works{
+    width: 100px;
+    height: 8px;
+    position: absolute;
+    top:76px;
+    left: 100px;
+    background-color: #FFFFFF;
+}
+.content-works{
+    width: 1138px;
+    height: 194px;
+    position: absolute;
+    top: 244px;
+    left: 151px;
+}
+.portfolio-2{
+    position: absolute;
+    top: 0;
+    left: 291.5px;
+}
+.portfolio-3{
+    position: absolute;
+    top: 0;
+    left: 581px;
+}
+.portfolio-4{
+    position: absolute;
+    top: 0;
+    left: 870px;
+}
+.titles{
+    width: 1132px;
+    height: 26px;
+    position: absolute;
+    top: 268px;
+    left: 2px;
+}
+.Lalique{
+    width: 263px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.building{
+    width: 263px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 289px;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.cafe{
+    width: 263px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 578px;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.unique{
+    width: 263px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 869px;
+
+    color: #2B4074;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.video-block{
+    width: 1440px;
+    height: 580px;
+    position: absolute;
+    top: 2095px;
+}
+.title-video{
+    width: 361px;
+    height: 90px;
+    position: absolute;
+    top: 80px;
+    left: 710px;
+}
+.team{
+    width: 192px;
+    height: 52px;
+
+    color: #4A4A4A;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.line-team{
+    width: 113.48px;
+    height: 8px;
+    position: absolute;
+    top: 82px;
+    background-color: #2B4074;
+}
+.video{
+    width: 460px;
+    height: 420px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+.text-video{
+    width: 506px;
+    height: 192px;
+    position: absolute;
+    top: 209px;
+    left: 710px;
+
+    color: #9B9B9B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.button-video{
+    width: 230px;
+    height: 39px;
+    position: absolute;
+    top: 440px;
+    left: 710px;
+    border-radius: 3px;
+    background-color: #2B4074;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top: 21px;
+    text-align: center;
 }
