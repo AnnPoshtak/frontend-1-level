@@ -29,6 +29,9 @@ q:before, q:after {
     content: '';
     content: none;
 }
+*{
+    box-sizing: border-box;
+}
 
 /* remember to define focus styles! */
 :focus {
@@ -52,92 +55,78 @@ table {
 
 
 header{
+    display: flex;
     height: 100px;
-    width: 1440px;
+    width: 100%;
     background-color: #2B4074;
+    padding: 0 135px;
+    justify-content: space-between;
+    align-items: center;
 }
 .Di-gi{
     width: 100px;
-    height: 65.73px;
-    position: absolute;
-    top: 17px;
-    left:153px;
+    height: 66px;
 }
 .menu{
-    color: #2B4074;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:#2B4074;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
-    position: relative;
-    top: 30px;
-    left: 1265px;
-    padding-top: 17px;
-    padding-left:14px;
-    width: 26px;
-    height: 27px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
 }
 
-.intro{
-    background-image:url("img/bg-img.jpg");
-    width: 1440px;
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 0 0;
+    background-image: url("img/bg-img.png");
+    width: 100%;
     height: 668px;
-}
-.Rectangle{
     position: relative;
-    width: 1440px;
-    height: 668px;
-    background-color: #21212180;
 }
-.title{
+
+
+.title {
     font-family: "Roboto Condensed", sans-serif;
-    width: 514px;
-    height: 192px;
-    position: absolute;
-    z-index: 5;
-    top: 107px;
-    left: 462px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 96px;
     line-height: 96px;
     letter-spacing: 2px;
-    horiz-align: center;
-    vertical-align: bottom;
     text-align: center;
+    margin-bottom: 18px;
 }
+
 .text {
     font-family: "Roboto Condensed", sans-serif;
-    width: 886px;
-    height: 60px;
-    position: absolute;
-    z-index: 5;
-    top: 317px;
-    left: 277px;
     color: #FFFFFF;
-    font-weight: 400;
     font-size: 24px;
+    font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0;
-    horiz-align: center;
-    vertical-align: bottom;
     text-align: center;
+    margin-bottom: 30px;
 }
-.read-more{
-    width:200px;
-    height: 32px;
-    position: absolute;
-    top: 405px;
-    left: 620px;
-    border-radius: 3px;
+
+.read-more {
+    width: 200px;
+    height: 50px;
     background-color: #2B4074;
     color: #ffffff;
-    text-align: center;
     font-size: 18px;
-    line-height: 18px;
-    padding-top:18px;
-
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
 }
 .arrow{
     position: absolute;
@@ -146,17 +135,17 @@ header{
 }
 .bg1{
     width: 70px;
-    height: 53px;
+    height: 70px;
     font-size: 35px;
     font-weight: bold;
-    padding-top: 17px;
+    padding-top:17px;
     color: #ffffff;
     background-color: #2B4074;
     text-align: center;
 }
 .bg2{
     width: 70px;
-    height:53px;
+    height:70px;
     font-size: 35px;
     font-weight: bold;
     padding-top: 17px;
@@ -164,51 +153,44 @@ header{
     background-color: #F9F6E5;
     text-align: center;
 }
-.ovals{
-    display:flex;
-    position: absolute;
-    top:578px;
-    left: 695px;
-    flex-direction:row;
+
+.ovals {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
 }
-.oval1{
+
+.oval1, .oval3 {
     width: 10px;
     height: 10px;
     background-color: #ffffff;
     border-radius: 50%;
-    display:flex;
 }
-.oval2{
+
+.oval2 {
     width: 9px;
     height: 9px;
-    border-radius: 50%;
     border: 2px solid #ffffff;
-    margin-left: 20px;
-    display:flex;
-}
-.oval3{
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
     border-radius: 50%;
-    margin-left: 20px;
-    display:flex;
 }
+
 .promo{
-    position: absolute;
-    top: 768px;
-    left: 0;
-}
-.bg{
-    width: 1440px;
+    width: 100%;
     height: 192px;
     background-color: #2B4074;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
 }
 .text-promo{
     color: #fff;
-    position: absolute;
-    top: 57px;
-    left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .text-1{
     width: 557px;
@@ -216,7 +198,7 @@ header{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    vertical-align: bottom;
+    display: flex;
 }
 .text-2{
     width: 796px;
@@ -224,108 +206,105 @@ header{
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
-    vertical-align: bottom;
+    display: flex;
 }
 .button{
     width:200px;
-    height: 32px;
-    position: absolute;
-    top: 71px;
-    left: 1105px;
+    height: 50px;
     background-color: #F9F6E5;
 
+    color: #2B4074;
     font-size:18px;
     padding-top: 18px;
+    padding-left: 10px;
     font-weight: 500;
     line-height: 18px;
-    text-align: center;
-    color: #2B4074;
+    display: flex;
 }
 .services{
-    width:1440px;
+    width:100%;
     height: 547px;
-    position: relative;
-    top: 196px;
-    left: 0;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.text-services{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .service{
     width:131px;
     height: 56px;
-    position: absolute;
-    top: 90px;
-    left: 62px;
+    margin-bottom: 20px;
+
     color: #2B4074;
     font-weight: 400;
     font-size: 48px;
     line-height: 100%;
-    vertical-align: bottom;
-}
-.content{
-    width:393px;
-    height: 278px;
-    position: relative;
-    top: 132px;
-    left: 62px;
+    display: flex;
 }
 .content-text1{
     width: 393px;
     height: 60px;
-    position: absolute;
-    top: 76.4px;
 
     color: #4A4A4A;
     font-size: 24px;
     font-weight: 400;
     line-height: 26px;
+    display: flex;
 }
 .content-text2{
     width: 351px;
     height: 68px;
-    position: absolute;
-    top: 210px;
 
     color: #797979;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-
+    display: flex;
 }
 .line{
-    width: 98.74px;
+    width: 99px;
     height: 8px;
-    position: absolute;
-    top: 167px;
     background: #2B4074;
+    display: flex;
 }
 
 
 
 
 .items{
-    width:853px;
+    width:900px;
     height:487px;
-    position: absolute;
-    top: 79px;
-    left: 543px;
+}
+.row{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 80px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .service-1{
     width: 94px;
     height: 112px;
-    position: absolute;
-    top: -0.47px;
-    left: 46.79px;
+    display: flex;
+    flex-direction: column;
 }
 .object-1-text{
-    width: 93.8px;
+    width: 94px;
     height: 20px;
-    position: absolute;
-    top: 91.54px;
 
     color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
+    display: flex;
 }
 .object-1{
     width: 100px;
@@ -334,43 +313,36 @@ header{
 .service-2{
     width: 98px;
     height: 112px;
-    position: absolute;
-    top: -0.47px;
-    left: 278.3px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
 }
 .object-2-text{
-    width: 93.8px;
+    width: 94px;
     height: 20px;
-    position: absolute;
-    top: 91.54px;
-
 
     color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
+    display: flex;
 }
 .object-2{
     width: 64px;
     height: 64px;
-    position: absolute;
-    left: 16.96px;
 }
 
 .service-3{
     width: 124px;
     height: 110px;
-    position: absolute;
-    top: 1.52px;
-    left: 494.85px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
 }
 .object-3-text{
     width: 107px;
     height: 19px;
-    position: absolute;
-    top: 91.48px;
-
 
     color: #4A4A4A;
     font-size: 16px;
@@ -378,85 +350,80 @@ header{
     line-height: 100%;
     letter-spacing: 2px;
     white-space: nowrap;
+    display: flex;
 }
 .object-3 {
     width: 64px;
     height: 64px;
-    position: absolute;
-    left: 31.15px
+    margin-left: 20px;
 }
-
-
 .service-4{
     width: 129px;
     height: 111px;
-    position: absolute;
-    top: 1.52px;
-    left: 724.37px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
 }
 .object-4-text{
     width: 100px;
     height: 20px;
-    position: absolute;
-    top: 91.48px;
-
 
     color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
-
+    display: flex;
 }
 .object-4 {
     width: 64px;
     height: 64px;
 }
 
+.row2{
+    width:900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .service-5{
+    margin-left: 20px;
+    margin-top:70px;
     width: 198px;
     height: 107px;
-    position: absolute;
-    top: 275.03px;
-    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0
 }
 .object-5-text{
-    width: 197.59px;
+    width: 198px;
     height: 20px;
-    position: absolute;
-    top: 86.54px;
-    left: 30px;
-
 
     color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
-
+    display: flex;
 }
 .object-5 {
     width: 100px;
     height: 100px;
-    position: absolute;
+    margin-left: -20px;
 }
 
 .service-6{
     width: 222px;
     height: 245px;
-    position: absolute;
-    top: 202px;
-    left: 210px;
+    margin-left: -130px;
+    flex-direction: column;
+    gap: 20px;
     border: 4px solid #2B4074;
 }
 .object-6-text{
     width: 96px;
     height: 19px;
-    position: absolute;
-    top: 104.47px;
-    left: 63px;
-
 
     color: #4A4A4A;
     font-size: 16px;
@@ -464,56 +431,53 @@ header{
     line-height: 100%;
     letter-spacing: 2px;
     white-space: nowrap;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 10px
 }
+
 .object-6-text-2{
     width: 196px;
     height: 48px;
-    position: absolute;
-    top: 145px;
-    left: 13px;
-
 
     color: #9B9B9B;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
     text-align: center;
+    margin-left: 20px;
+    display: flex;
 }
 .full-View{
     width: 222px;
     height: 24px;
-    position: absolute;
-    top: 211px;
 
     color: #2B4074;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
-    text-align: center;
+    margin-left: 30px;
+    display: flex;
 }
 .object-6 {
     width:58px;
     height: 64px;
-    position: absolute;
-    top: 25px;
-    left: 82px;
+    margin-top: 25px;
+    margin-left: 82px;
 }
 
 .service-7{
     width: 188px;
     height: 118px;
-    position: absolute;
-    top: 262.1px;
-    left: 462.92px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
 }
 .object-7-text{
     width: 189px;
     height: 39px;
-    position: absolute;
-    top: 79.9px;
-    left: -0.92px;
-
 
     color: #4A4A4A;
     font-size: 16px;
@@ -521,198 +485,111 @@ header{
     line-height: 100%;
     letter-spacing: 2px;
     text-align: center;
+    display: flex;
 }
 .object-7 {
     width: 130px;
     height: 100px;
+    margin-left: -10px;
+    margin-bottom: -50px;
 }
 
 .service-8{
     width: 95px;
     height: 124px;
-    position: absolute;
-    top: 255.13px;
-    left: 742.34px;
+    margin-top: 60px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
 }
 .object-8-text{
     width: 79px;
     height: 20px;
-    position: absolute;
-    top: 103.87px;
-    left: 8.66px;
-
 
     color: #4A4A4A;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
+    display: flex;
 }
 .object-8 {
     width: 100px;
     height: 100px;
+    margin-left: -10px;
+    margin-bottom: -50px;
 }
-.lines{
-    width: 865px;
-    height: 547px;
-    position: absolute;
-    top: 0;
-    left: 515.61px;
-}
-.line-1{
-    width: 865px;
-    height: 3px;
-    position: absolute;
-    top: 270.53px;
-    left: 0.99px;
-    border: 1px solid #F9F6E5;
-}
-.line-2{
-    width: 2.98px;
-    height: 547px;
-    position: absolute;
-    left: 461.35px;
-    border: 1px solid #F9F6E5;
-}
-.line-3{
-    width: 2.98px;
-    height: 547px;
-    position: absolute;
-    left: 231.67px;
-    border: 1px solid #F9F6E5;
-}
-.line-4{
-    width: 2.98px;
-    height: 547px;
-    position: absolute;
-    left: -0.49px;
-    border: 1px solid #F9F6E5;
-}
-.line-5{
-    width: 2.98px;
-    height: 547px;
-    position: absolute;
-    left: 691.03px;
-    border: 1px solid #F9F6E5;
-}
+
 .works{
-    width: 1440px;
+    width: 100%;
     height: 618px;
-    position: absolute;
-    top: 1507px;
     background: linear-gradient(180deg, rgba(43, 64, 116, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px
 }
 .title-works{
     width: 319px;
     height: 84px;
-    position: absolute;
-    top: 80px;
-    left: 561px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }
 .text-works{
-    width: 318.5px;
+    width: 319px;
     height: 52px;
 
     color: #ffffff;
     font-size: 48px;
     font-weight: 400;
     line-height: 100%;
+    margin-bottom: 20px;
 }
 .line-works{
     width: 100px;
     height: 8px;
-    position: absolute;
-    top:76px;
-    left: 100px;
     background-color: #FFFFFF;
 }
 .content-works{
     width: 1138px;
-    height: 194px;
-    position: absolute;
-    top: 244px;
-    left: 151px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
-.portfolio-2{
-    position: absolute;
-    top: 0;
-    left: 291.5px;
+.portfolios{
+    width: 1138px;
+    height: 239px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.portfolio-3{
-    position: absolute;
-    top: 0;
-    left: 581px;
-}
-.portfolio-4{
-    position: absolute;
-    top: 0;
-    left: 870px;
+.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4{
+    width: 268px;
+    height: 239px;
+    display: flex;
 }
 .titles{
-    width: 1132px;
+    width: 1138px;
     height: 26px;
-    position: absolute;
-    top: 268px;
-    left: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.Lalique{
+.Lalique, .building, .cafe, .unique{
     width: 263px;
     height: 26px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
 
     color: #2B4074;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 2px;
-    text-align: center;
-}
-
-.building{
-    width: 263px;
-    height: 26px;
-    position: absolute;
-    top: 0;
-    left: 289px;
-
-    color: #2B4074;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-.cafe{
-    width: 263px;
-    height: 26px;
-    position: absolute;
-    top: 0;
-    left: 578px;
-
-    color: #2B4074;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-.unique{
-    width: 263px;
-    height: 26px;
-    position: absolute;
-    top: 0;
-    left: 869px;
-
-    color: #2B4074;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 2px;
-    text-align: center;
 }
 
 .video-block{
