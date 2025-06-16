@@ -888,31 +888,31 @@ header{
     padding-top: 8px;
     padding-left: 20px;
 }
+
+
 .testimonial{
-    width: 1440px;
+    width: 100%;
     height: 480px;
-    position: absolute;
-    top: 3748px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
 }
 .quotes{
     width: 32px;
     height: 14px;
-    position: absolute;
-    top: 100px;
-    left: 707px;
 
     color: #2B4074;
     font-size: 50px;
     font-weight: 400;
     line-height: 14px;
-
+    display: flex;
 }
 
 .text-testimonial{
     width: 1444px;
     height: 108px;
-    position: absolute;
-    top: 144px;
 
     color: #4A4A4A;
     font-weight: 400;
@@ -928,15 +928,11 @@ span{
     line-height: 100%;
     letter-spacing: 0;
     text-align: center;
-    vertical-align: bottom;
-
 }
 
 .text-testimonial-2{
     width: 1443px;
     height: 28px;
-    position: absolute;
-    top: 282px;
 
     color: #4A4A4A;
     font-weight: 700;
@@ -948,34 +944,22 @@ span{
 
 .ovals2{
     display:flex;
-    position: absolute;
-    top:390px;
-    left: 697px;
     flex-direction:row;
+    gap:20px;
 }
 
-.oval-1{
+.oval-1, .oval-3 {
     width: 10px;
     height: 10px;
     background-color: #2B4074;
     border-radius: 50%;
-    display:flex;
 }
-.oval-2{
+
+.oval-2 {
     width: 9px;
     height: 9px;
-    border-radius: 50%;
     border: 2px solid #476E4D;
-    margin-left: 20px;
-    display:flex;
-}
-.oval-3{
-    width: 10px;
-    height: 10px;
-    background-color: #2B4074;
     border-radius: 50%;
-    margin-left: 20px;
-    display:flex;
 }
 
 footer{
