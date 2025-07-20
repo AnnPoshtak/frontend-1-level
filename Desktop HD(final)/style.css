@@ -702,7 +702,7 @@ footer{
 .text-footer{
     height: 61px;
     padding-top: 200px;
-    padding-left: 100px;
+    padding-left: 5%;
 
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -714,7 +714,7 @@ footer{
 }
 .social{
     height: 63px;
-    padding-left: 100px;
+    padding-left: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
